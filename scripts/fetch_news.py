@@ -8,6 +8,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)
 DATA_DIR = os.path.join(BASE_DIR, "oil-pulse-forecast-backend", "data")
 
+# Below is a free but limited API key for demo purposes
 API_KEY = "98747665b0fc45e4b293c6fdfda14180"  # Replace with your key
 query = "oil prices"
 FROM_DATE = "2021-07-29"
